@@ -1,0 +1,98 @@
+Abstraction  
+ will specify only essential features with out informing inner 
+ details.
+
+Inheritance
+
+	obtaining properties from parent classes
+
+Polymorphism
+	same form (signature) but different implementations
+
+
+interfaces -> 
+all methods are abstract and public
+implements (insteadof extends)
+variables are static and final
+
+package
+	group related functionality classes together into a 
+	single unit
+
+	     SameClass Samepackage  differntpkgsubclass difpkg
+private        Y            N            N                 N
+
+default        Y            Y            N                 N
+
+protected      Y            Y            Y                 N
+
+public         Y            Y            Y                 Y
+
+		Collections
+dynamic size and can hold multiple data types at the sam etime
+
+import java.util
+	
+		Collection(I)
+		
+	List (I)	Set (I)		Map (I) (map is not implementing collection)
+
+ArrayList (C)		HashSet()	HashMap
+LinkedList		LinkedHashSet   LinkedHashMap
+			TreeSet		TreeMap
+
+
+Map is a Key and Value Pair...
+
+
+		Exception Handling
+
+
+try
+	is a block where you will keep the business logic which 
+	might causethe exception
+catch
+	is a blcok, which can handle the exception
+finally
+	is a block, can be executed always 
+
+throw
+	is used to manually throw the exceptions in your application
+throws
+
+		Files
+
+java.io.
+OutputStream (I)			InputStream (I)
+byte oriented classes
+FIleOutputSTream(C)			FileInputStream
+DataOutputStream(C)			DataInputStream
+ObjectOutputStream(C)			ObjectInputStream
+
+write the information into files...       read the information from file
+
+Character 
+Writer					Reader
+FileWriter			FileReader
+
+
+
+
+
+Thread (C) implements Runnable		      Runnable (I)
+
+start() -> method			      run() method 
+	is responsible to start the thread.
+	that means, it will call the run method in background.
+
+
+Through out your JVM, you will have only 1 instance. 
+	.. Loading properties files
+	.. loading some database information
+
+
+Factory Design pattern
+		Will provide one of the class from the family hierarchy
+	
+
+ 
